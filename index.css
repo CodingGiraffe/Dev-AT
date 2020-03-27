@@ -76,7 +76,7 @@ main .portfolio {
 }
 
 main .photo {
-    height: 300px;
+    height: 500px;
     animation-name: moveInLeft;
     animation-duration: 2s;
     animation-timing-function: ease-out;
@@ -93,17 +93,17 @@ main .content {
 }
 
 main .content p:nth-of-type(1) {
-    font-size: 70px;
+    font-size: 100px;
 }
 
 main .content p:nth-of-type(2) {
     text-transform: uppercase;
     letter-spacing: 2.8;
-    font-size: 30px;
+    font-size: 50px;
   }
 
 main .content button {
-    font-size: 20px;
+    font-size: 35px;
     margin: 20px 0 0;
     border: 2px solid rgba(243, 237, 237, 0.729);
     padding: 10px 20px;
@@ -121,6 +121,7 @@ main .content button {
 
 footer {
     height: 50px;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +132,7 @@ footer {
     color: ghostwhite;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 576px) {
     nav ul {
         font-size: 20px;
         word-spacing: 15px;
@@ -142,13 +143,31 @@ footer {
       flex-direction: column;
     }
 
+    main .photo img {
+      height: 250px;
+      border: 3px solid teal;
+      border-radius: 50%;
+  }
+
     .logo {
         text-align: center;
         padding: 5px 0px 0px 0px;
     }
 
     main .content p:nth-of-type(1) {
-      font-size: 50px;
+      font-size: 43px;
+      text-align: center;
+  }
+
+  main .content p:nth-of-type(2) {
+    text-transform: uppercase;
+    letter-spacing: 2.8;
+    font-size: 27px;
+    text-align: center;
+  }
+
+  main .content button {
+    font-size: 25px;
   }
 
     footer {

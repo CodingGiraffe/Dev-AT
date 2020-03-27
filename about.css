@@ -8,7 +8,9 @@ header {
     align-items: center;
     font-size: 80px;
     font-family: 'Russo One', sans-serif;
-    color: ghostwhite;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px white;
 }
 
 .section {
@@ -23,7 +25,7 @@ header {
 } */
 
 .austin {
-    height: 300px;
+    height: 250px;
 }
 
 img {
@@ -33,28 +35,29 @@ img {
 }
 
 .school {
-    height: 300px;
+    height: 250px;
 }
 
 .colorado {
-    height: 300px;
+    height: 250px;
 }
 
 .aca {
-    height: 300px;
+    height: 250px;
 }
 
 p {
-    color: ghostwhite;
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(13, 65, 13);
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    /* background-color: rgb(13, 65, 13); */
     height: 150px;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 video { 
@@ -67,8 +70,11 @@ video {
         height: auto;
         z-index: -100;
         transform: translate(-50%, -50%);
+        opacity: .4;
 }
 @media only screen and (max-width: 600px) {
+    
+    
     .section {
       display: flex;
       flex-direction: column;
