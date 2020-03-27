@@ -14,9 +14,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- background: url("https://storage.coverr.co/videos/Blue-Horizon?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjExNDMyN0NEOTRCMUFCMTFERTE3IiwiaWF0IjoxNTgxNTIwNDgzfQ.gRFi_DzPu06okr34EkcWmxA4Kjz2vIxPaM6wFARYRRs") repeat;
-  background-size: cover;
-  transition: 1s opacity;
+    opacity: .6;
 }
 
 nav {
@@ -25,8 +23,8 @@ nav {
     align-items: flex-end; */
     font-family: 'Indie Flower', serif;
     font-size: 45px;
-    text-shadow: 4px 4px 4px teal;
-    color: ghostwhite;
+    text-shadow: 4px 4px 4px white;
+    color: teal;
     padding: 20px;
 }
 
@@ -42,7 +40,7 @@ nav ul {
 
 a {
     text-decoration: none;
-    color: ghostwhite;
+    color: teal;
     animation: moveInRight 3s ease-out;
 }
 
@@ -198,7 +196,7 @@ footer {
     }
     50% {
       font-size: 45px;
-      color:teal;
+      color:white;
     }
     80% {
       transform: translateX(-20px);
