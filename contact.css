@@ -95,6 +95,7 @@ button {
 
     button {
         width:50%;
-        height: 100px
+        height: 100px;
+        padding: 20px 20px 20px 20px
     }
   }
