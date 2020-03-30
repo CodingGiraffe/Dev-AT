@@ -16,7 +16,7 @@ header {
     font-size: 80px;
     padding: 20px;
     color: black;
-    font-family: 'Chango', cursive;
+    font-family: 'Russo One', sans-serif;
     text-shadow: 2px 2px  white
 }
 
@@ -58,7 +58,7 @@ input {
 label {
     color: black;
     font-size: 30px;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     /* background-color: grey; */
     margin-bottom: 10px;
     border-radius: 60px;
