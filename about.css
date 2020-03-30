@@ -72,6 +72,11 @@ video {
         transform: translate(-50%, -50%);
         opacity: .4;
 }
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
 @media only screen and (max-width: 600px) {
     
     
