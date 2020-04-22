@@ -61,3 +61,14 @@ video {
     transform: translateX(-50%) translateY(-50%);
     opacity: .6;
 }
+
+@media only screen and (max-width: 600px) {
+    .projects {
+      display: flex;
+      flex-direction: column;
+    }
+
+    img {
+        width: 80%;
+    }
+  }
