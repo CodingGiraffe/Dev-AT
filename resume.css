@@ -28,3 +28,12 @@ a {
 body {
     background-color: black;
 }
+
+.form {
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 280px;
+}
