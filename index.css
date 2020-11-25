@@ -132,7 +132,7 @@ footer {
 
 @media only screen and (max-width: 576px) {
   nav ul {
-    font-size: 12px;
+    font-size: 18px;
     word-spacing: 50px;
     display: flex;
     justify-content: space-evenly;
